@@ -1,11 +1,13 @@
-<h1>Proyectos</h1>
+<h1 class="my-3 text-center">Proyectos</h1>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <%= image_tag 'turismo.jpg', class: 'card-img-top' %>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Web Turismo</h5>
+        <p class="card-text">
+          Página web desarrollada en el primer módulo con HTML + CSS + Javascript.
+        </p>
       </div>
       <div class="card-footer text-center">
         <%= link_to 'Ver Más', '#', class: 'boton' %>
@@ -14,10 +16,12 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <%= image_tag 'imc.webp', class: 'card-img-top' %>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a short card.</p>
+        <h5 class="card-title">Script IMC</h5>
+        <p class="card-text">
+          Script desarrollado en Ruby que calcula el IMC al ingrear peso y estatura.
+        </p>
       </div>
       <div class="card-footer text-center">
         <%= link_to 'Ver Más', '#', class: 'boton' %>
@@ -26,10 +30,12 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <%= image_tag 'mars.jpg', class: 'card-img-top' %>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">API Mars Rover</h5>
+        <p class="card-text">
+          Script desarrollado en Ruby que hace uso de la API de la Nasa y trae un hash con imágenes de Marte.
+        </p>
       </div>
       <div class="card-footer text-center">
         <%= link_to 'Ver Más', '#', class: 'boton' %>
