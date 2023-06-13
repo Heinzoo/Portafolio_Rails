@@ -1,0 +1,17 @@
+.text-decoration {
+  text-decoration: none;
+}
+
+.profile_img {
+  width: 200px;
+  height: 200px;
+  margin-left: 20%;
+}
+
+.boton {
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 5px 20px;
+  background-color: rgba(172, 255, 47, 0.5);
+  color: black;
+}
